@@ -35,9 +35,11 @@ form input, select, textarea{
     border-radius: 5px;
     border: 1px solid;
 }
-.btn{
+.button{
     background-color: darkseagreen;
     width: 40%;
     margin-left: 30%;
     font-weight: 700;
+    margin-top: 15px;
+    text-align: center;
 }

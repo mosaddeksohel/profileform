@@ -4,7 +4,7 @@ import UserDetail from '../UserDetail/UserDetail';
 const UserData = () => {
     const [users, setUser] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/profile')
+        fetch('https://floating-caverns-53221.herokuapp.com/profile')
             .then(res => res.json())
             .then(data => setUser(data))
     }, [])

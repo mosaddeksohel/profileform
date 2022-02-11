@@ -7,7 +7,7 @@ const ProfileForm = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/profile', data)
+        axios.post('https://floating-caverns-53221.herokuapp.com/profile', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('profile updated')
@@ -91,7 +91,7 @@ const ProfileForm = () => {
                 </div>
 
 
-                <input className='btn' type="submit" />
+                <input className='button' type="submit" />
             </form>
         </div>
     );
