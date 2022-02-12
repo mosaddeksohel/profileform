@@ -1,0 +1,65 @@
+.form{
+    margin: 2% 10% 10%;
+    text-align: left;
+    width: 75%;
+    font-weight: 600;
+}
+
+.title-top{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.top{
+    display: flex;
+}
+.photo-nmame{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+height: 70%;
+width: 55%;
+margin-left: 50%;
+
+}
+.form-body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title-conditions{
+    text-align: center;
+    text-decoration-line: underline;
+}
+.top{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.img{
+    width: 50%;
+    height: 70%;
+    
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.sign{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sign-item{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.applicant{
+    text-decoration-line: overline;
+}
+.director{
+    text-decoration-line: overline;
+}
+

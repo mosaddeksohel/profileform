@@ -1,13 +1,10 @@
 import './App.css';
-import ProfileForm from './Component/Form/ProfileForm';
-import UserData from './Component/UserData/UserData';
+import ProfileDetailsForm from './Component/ProfileDetailsForm/ProfileDetailsForm';
 
 function App() {
   return (
     <div className="App">
-
-      <ProfileForm></ProfileForm>
-      <UserData></UserData>
+      <ProfileDetailsForm></ProfileDetailsForm>
     </div>
   );
 }
